@@ -1,0 +1,21 @@
+[build-dependencies]
+pkg-config = "0.3.7"
+
+[dependencies]
+libc = "0.2"
+
+[dev-dependencies]
+shell-words = "0.1.0"
+tempdir = "0.3"
+
+[features]
+dox = []
+
+[lib]
+name = "gssdp_sys"
+
+[package]
+build = "build.rs"
+links = "gssdp"
+name = "gssdp-sys"
+version = "0.2.0"
